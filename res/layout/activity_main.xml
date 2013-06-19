@@ -1,0 +1,51 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="22dp"
+        android:text="Hello  benjawan"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:layout_x="58dp"
+        android:layout_y="78dp"
+        android:text="รูปภาพ" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_x="162dp"
+        android:layout_y="80dp"
+        android:text="วีดีโอ" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_x="30dp"
+        android:layout_y="201dp"
+        android:text="เครื่องคิดเลข" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="103dp"
+        android:layout_height="81dp"
+        android:layout_x="168dp"
+        android:layout_y="200dp"
+        android:text="ฐานข้อมูล" />
+
+</AbsoluteLayout>
